@@ -8,8 +8,8 @@ That constraint isn't minimalism for its own sake. Anything a school can't
 install, a teacher won't use.
 
 Twenty years teaching English across Thailand, South Korea, China and the
-US, an MEd in Learning Design and Technologies, and currently a biological
-data science program at Arizona State. Before that, intelligence analysis
+US, an MEd in Learning Design and Technologies (4.0, With Distinction) and an
+MA in English. Before that, intelligence analysis
 in the US Army and technical communication for BASF's R&D group in Korea.
 
 The through-line is narrower than the résumé suggests: pattern recognition,
