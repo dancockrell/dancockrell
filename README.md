@@ -1,61 +1,48 @@
 ## Dan Cockrell
 
-Learning designer and developer. I build reading tools and narrative games
-that run in a browser with no install, no account and no build step:
-usually a single HTML file you can open by double-clicking.
+I make reading tools and small narrative games that run in a browser.
+No install, no account, usually one HTML file you can open by double-clicking.
+Schools will not use anything they cannot install. That is the whole constraint.
 
-That constraint isn't minimalism for its own sake. Anything a school can't
-install, a teacher won't use.
+Twenty years teaching English in Thailand, South Korea, China and the US.
+MEd in Learning Design and Technologies, MA in English. Before that, intelligence
+analysis in the US Army and technical writing for BASF in Korea.
 
-Twenty years teaching English across Thailand, South Korea, China and the
-US, an MEd in Learning Design and Technologies (4.0, With Distinction) and an
-MA in English. Before that, intelligence analysis in the US Army and
-technical communication for BASF's R&D group in Korea.
-
-The through-line is narrower than the résumé suggests: pattern recognition,
-and getting an idea across a language or culture gap intact. The tools here
-are that work, automated.
+The work here is the same job I have always had: get an idea across a language
+gap without breaking it.
 
 ### Reading tools
 
-Narrated texts with word-level highlighting and comprehension passes, plus a
-classroom layer that turns a reading into a graded assignment: QR check-in,
-marking with or without a Google account.
+Public-domain stories with narration, word-level highlighting, and a classroom
+layer so a reading becomes a graded assignment. QR check-in. Marking with or
+without a Google account.
 
-- **The Raven**, Edgar Allan Poe
-- **The Gift of the Magi**, O. Henry
-- **QuickGrade**, automatic test grading
+- [The Raven](https://github.com/dancockrell/the-raven-edgar-allan-poe-magi-reader), Edgar Allan Poe
+- [The Gift of the Magi](https://github.com/dancockrell/the-gift-of-the-magi-o-henry-magi-reader), O. Henry
+- [QuickGrade](https://github.com/dancockrell/quickgrade), paper tests graded from a camera
 
-One engine underneath; each book is a content pack. Narration carries
-word-level timings, so the highlight tracks the voice rather than
-approximating it.
+One engine, [Magi Reader](https://github.com/dancockrell/magi-reader-engine).
+Each book is a content pack. The highlight follows the voice, not a guess.
 
 ### Games
 
-- **Ghost Front**: WW2 horror platformer. One file, ~12 MB, art embedded,
-  no dependencies.
-- **The Horrors of War**
-- **World Aflame**: three-faction card game. Hotseat on one device, or
-  peer-to-peer across two with no server in between.
-- **The Long Night**: hand-built canvas RPG with a runtime-synthesized
-  orchestra and no audio downloads.
+Playable at [dancockrell.itch.io](https://dancockrell.itch.io/).
 
-Playable at **[dancockrell.itch.io](https://dancockrell.itch.io/)**.
+- **Ghost Front** — WW2 horror platformer. One file, art embedded.
+- **World Aflame** — three-faction card game. Hotseat, or two devices with no server.
+- **The Long Night** — canvas RPG. Orchestra synthesized at runtime, nothing to download.
 
-### How it's made
+They share a setting. The lore lives in [Project 42](https://github.com/dancockrell/project-42-worldbuilding),
+not inside any one game.
 
-Art and narration are generated locally on one workstation rather than
-licensed per asset: ComfyUI driven from scripts instead of the node graph,
-neural text-to-speech, and word-level timing extraction.
+### How the assets get made
 
-The interesting problem is rarely the model. It's the pipeline around it:
-holding a character's face steady across two hundred frames, or getting
-timings accurate enough that a highlight hasn't drifted by the third stanza.
+Art and narration are generated on one workstation. ComfyUI driven from scripts,
+local speech, word timings pulled off the audio. The hard part is keeping a face
+steady across two hundred frames, or stopping a highlight from drifting by stanza three.
 
-### Working notes
+### Notes
 
-Most repositories here carry a status document beside the code: what
-changed, why, and what's still open. They're written for the version of me
-who comes back in six months having forgotten everything.
+Most repos have a status file next to the code. I write them because I forget.
 
 *Teaching since 2006. Building since 2021. Based in Thailand.*
