@@ -2,7 +2,7 @@
 
 I build specialized applications and developer tools, usually for workflows awkward enough that generic software does not fit them well.
 
-The current work is deliberately small in number: finish the applications, keep the genuinely reusable tools, and build new interactive work only on the newer Godot and controlled-art pipeline.
+The current work is deliberately small in number: finish the applications, keep the genuinely reusable tools, and focus new interactive work on the current Godot projects.
 
 ### Applications
 
@@ -15,9 +15,6 @@ The current work is deliberately small in number: finish the applications, keep 
 The useful part of a project is often the tool that falls out of solving it.
 
 - [Quartermaster](https://github.com/dancockrell/quartermaster) — capability-aware scheduler: a job runs only when the machine can prove its dependencies are available.
-- [The Forge](https://github.com/dancockrell/gf-forge) — scripted image/video/audio production on top of ComfyUI, with deterministic jobs, seeds, filenames and batch review.
-- [Sprite Sheet Extraction Pipeline](https://github.com/dancockrell/gf-pipeline) — turns imperfect annotated/generated plates into aligned animation data without frame-to-frame palette and baseline drift.
-- [Browser Game QA Tools](https://github.com/dancockrell/gf-tools) — Playwright smoke tests, regression sweeps, deterministic screenshots and release helpers.
 - [screen-capture-mcp](https://github.com/dancockrell/screen-capture-mcp) — gives an MCP client visual feedback from a Windows desktop or application window.
 - [project-42-blockchain](https://github.com/dancockrell/project-42-blockchain) — peer-to-peer dual-signed event ledger for Godot; no token, mining or trusted server.
 - [DR Genie settings](https://github.com/dancockrell/dr-genie-settings) — validated highlights and sparse sound alerts for DragonRealms in Genie.
@@ -35,7 +32,7 @@ Magi Reader keeps the engine separate from the books. The two maintained example
 
 [World Aflame](https://github.com/dancockrell/world-aflame) is the card-game project worth continuing, with a [Godot port](https://github.com/dancockrell/world-aflame-godot) and a reusable peer-to-peer ledger split into its own library.
 
-Future platform/action work is being built in Godot with the newer controlled character-art and animation pipeline. Older prototypes and first-generation art are being removed rather than kept as historical showcase material.
+Current gameplay work is focused on the Godot port. The original browser repository remains as a playable WebRTC implementation and reference.
 
 ### Background
 
