@@ -1,48 +1,44 @@
 ## Dan Cockrell
 
-I make reading tools and small narrative games that run in a browser.
-No install, no account, usually one HTML file you can open by double-clicking.
-Schools will not use anything they cannot install. That is the whole constraint.
+I build specialized applications and developer tools, usually around workflows that are awkward enough that generic software does not fit them well.
 
-Twenty years teaching English in Thailand, South Korea, China and the US.
-MEd in Learning Design and Technologies, MA in English. Before that, intelligence
-analysis in the US Army and technical writing for BASF in Korea.
+My current work falls into three overlapping areas: full applications, tools for building and testing them, and a small number of game/interactive projects where the underlying systems are worth developing further.
 
-The work here is the same job I have always had: get an idea across a language
-gap without breaking it.
+### Applications
 
-### Reading tools
+- [DR Companion](https://github.com/dancockrell/dr-companion) — a full desktop MUD client for DragonRealms built around Lich 5, with maps, scripting, sound, art, client automation and a Tauri/React desktop interface.
+- [Magi Reader](https://github.com/dancockrell/magi-reader-engine) — an illustrated, narrated reading engine with word-level highlighting, multilingual support and classroom workflows.
+- [QuickGrade](https://github.com/dancockrell/quickgrade) — local-first paper-test grading from a camera or photographs, including written-answer workflows and spreadsheet/document export.
 
-Public-domain stories with narration, word-level highlighting, and a classroom
-layer so a reading becomes a graded assignment. QR check-in. Marking with or
-without a Google account.
+### Tools
 
-- [The Raven](https://github.com/dancockrell/the-raven-edgar-allan-poe-magi-reader), Edgar Allan Poe
-- [The Gift of the Magi](https://github.com/dancockrell/the-gift-of-the-magi-o-henry-magi-reader), O. Henry
-- [QuickGrade](https://github.com/dancockrell/quickgrade), paper tests graded from a camera
+I keep the tools as first-class repositories when the tool is useful beyond the project that caused it to exist.
 
-One engine, [Magi Reader](https://github.com/dancockrell/magi-reader-engine).
-Each book is a content pack. The highlight follows the voice, not a guess.
+- [Quartermaster](https://github.com/dancockrell/quartermaster) — capability-aware scheduler: a job runs only when the machine can prove its dependencies are available.
+- [screen-capture-mcp](https://github.com/dancockrell/screen-capture-mcp) — gives an MCP client visual feedback from a Windows desktop or application window.
+- [gf-forge](https://github.com/dancockrell/gf-forge) — scripted production layer over ComfyUI for repeatable image, video and audio jobs.
+- [gf-pipeline](https://github.com/dancockrell/gf-pipeline) — turns annotated art plates into indexed sprite data with shared palette, baseline and deterministic reduction.
+- [project-42-blockchain](https://github.com/dancockrell/project-42-blockchain) — small peer-to-peer dual-signed event ledger for Godot; no token, mining or server.
 
-### Games
+The common theme is making an unreliable or manual workflow inspectable and repeatable: explicit state, deterministic files, tests that can fail loudly, and tools that preserve the reason behind unusual engineering decisions.
 
-Playable at [dancockrell.itch.io](https://dancockrell.itch.io/).
+### Reading packs
 
-- **Ghost Front** — WW2 horror platformer. One file, art embedded.
-- **World Aflame** — three-faction card game. Hotseat, or two devices with no server.
-- **The Long Night** — canvas RPG. Orchestra synthesized at runtime, nothing to download.
+Magi Reader keeps the engine separate from the books. Public-domain titles live in their own repositories so content, art and narration can evolve without hard-coding a title into the application.
 
-They share a setting. The lore lives in [Project 42](https://github.com/dancockrell/project-42-worldbuilding),
-not inside any one game.
+- [The Raven](https://github.com/dancockrell/the-raven-edgar-allan-poe-magi-reader)
+- [The Gift of the Magi](https://github.com/dancockrell/the-gift-of-the-magi-o-henry-magi-reader)
 
-### How the assets get made
+Other reader repositories are production experiments or incomplete packs rather than separate applications.
 
-Art and narration are generated on one workstation. ComfyUI driven from scripts,
-local speech, word timings pulled off the audio. The hard part is keeping a face
-steady across two hundred frames, or stopping a highlight from drifting by stanza three.
+### Interactive work
 
-### Notes
+[World Aflame](https://github.com/dancockrell/world-aflame) is the current card-game experiment. The reusable ledger work that came out of its networking problem lives separately in [project-42-blockchain](https://github.com/dancockrell/project-42-blockchain).
 
-Most repos have a status file next to the code. I write them because I forget.
+For future platform/action work I am using Godot and a newer controlled character-art pipeline rather than treating older game prototypes as permanent products.
 
-*Teaching since 2006. Building since 2021. Based in Thailand.*
+### Background
+
+Twenty years teaching English in Thailand, South Korea, China and the United States. MEd in Learning Design and Technologies, MA in English. Earlier work included intelligence analysis in the US Army and technical writing for BASF in Korea.
+
+That background shows up in the software: I care about whether a system explains itself, whether a user can recover when something goes wrong, and whether the documented workflow matches what the program actually does.
