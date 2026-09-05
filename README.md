@@ -27,7 +27,6 @@ I develop illustration, narration, storyboard, game-art, and video workflows alo
 - [screen-capture-mcp](https://github.com/dancockrell/screen-capture-mcp) — Windows visual feedback for MCP clients.
 - [Project 42 event ledger](https://github.com/dancockrell/project-42-blockchain) — a peer-to-peer, dual-signed game-event ledger, without cryptocurrency or mining.
 - [DR Genie settings](https://github.com/dancockrell/dr-genie-settings) — highlights and sound alerts for DragonRealms.
-- [World Aflame](https://github.com/dancockrell/world-aflame) and its [Godot port](https://github.com/dancockrell/world-aflame-godot) — earlier card-game and simulation work, retained as projects with their own rules and history.
 
 ### Background and approach
 
