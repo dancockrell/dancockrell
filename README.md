@@ -1,41 +1,38 @@
 ## Dan Cockrell
 
-I build specialized applications and developer tools, usually for workflows awkward enough that generic software does not fit them well.
+I develop AI-assisted applications and interactive media, combining product direction, software development, and a background in learning design and technical writing.
 
-The current work is deliberately small in number: finish the applications, keep the genuinely reusable tools, and focus new interactive work on the current Godot projects.
+My work connects how people learn and make decisions with how software presents information, handles uncertainty, and helps them recover from mistakes. I use AI throughout development, then test the result against the actual task: working software, readable documentation, and visual evidence.
 
-### Applications
+### Support the work
 
-- [DR Companion](https://github.com/dancockrell/dr-companion) — a full desktop MUD client for DragonRealms built around Lich 5, with maps, scripting, sound, art, automation and a Tauri/React desktop interface.
-- [Magi Reader](https://github.com/dancockrell/magi-reader-engine) — an illustrated, narrated reading engine with word-level highlighting, multilingual support and classroom workflows.
-- [QuickGrade](https://github.com/dancockrell/quickgrade) — local-first paper-test grading from a camera or photographs, including written-answer workflows and spreadsheet/document export.
+[**Buy me McDonald's**](https://dancockrell.github.io/buy-me-mcdonalds/) — an optional way to support my independent software, game, and media work with a small contribution through PayPal. The [support page's source](https://github.com/dancockrell/buy-me-mcdonalds) is public too.
 
-### Tools
+### Applications and games
 
-The useful part of a project is often the tool that falls out of solving it.
+- [DR Companion](https://github.com/dancockrell/dr-companion) — a DragonRealms desktop client built around Lich, Tauri, and React. Its current visual direction is a fixed isometric RTS-style board that presents the authoritative MUD room graph and live game state.
+- [Magi Reader](https://github.com/dancockrell/magi-reader-engine) — illustrated, narrated literary reading with synchronized text, vocabulary, and multilingual support. Development is moving toward a polished solo reading experience; the repository tracks the transition from the earlier classroom product.
+- [QuickGrade](https://github.com/dancockrell/quickgrade) — local-first paper-test grading from a camera or photographs, with written-answer review and spreadsheet/document export.
+- **Pirate Island** — an in-development fantasy RTS simulation and HaremLit RPG, with controllable companions, autonomous factions, and investigation-driven progression. Development currently lives in a private repository.
 
-- [Quartermaster](https://github.com/dancockrell/quartermaster) — capability-aware scheduler: a job runs only when the machine can prove its dependencies are available.
-- [screen-capture-mcp](https://github.com/dancockrell/screen-capture-mcp) — gives an MCP client visual feedback from a Windows desktop or application window.
-- [project-42-blockchain](https://github.com/dancockrell/project-42-blockchain) — peer-to-peer dual-signed event ledger for Godot; no token, mining or trusted server.
-- [DR Genie settings](https://github.com/dancockrell/dr-genie-settings) — validated highlights and sparse sound alerts for DragonRealms in Genie.
+### Visual and media work
 
-The common theme is making unreliable or manual work inspectable and repeatable: explicit state, deterministic files, tests that fail loudly, and documentation that preserves why unusual decisions exist.
+I develop illustration, narration, storyboard, game-art, and video workflows alongside the applications that use them. The work includes reference selection, asset provenance, reusable environment kits, and review at the scale and pace the audience will actually experience.
 
-### Reading packs
+- [Shared Game Environment Library](https://github.com/dancockrell/shared-game-environment-library) — reusable environment sources and resource packs with explicit licensing and admission records.
+- [The Gift of the Magi](https://github.com/dancockrell/the-gift-of-the-magi-o-henry-magi-reader) and [The Raven](https://github.com/dancockrell/the-raven-edgar-allan-poe-magi-reader) — literary content and media repositories in the Magi Reader family; their READMEs explain the legacy material they retain.
 
-Magi Reader keeps the engine separate from the books. The two maintained example packs are:
+### Tools and earlier work
 
-- [The Raven](https://github.com/dancockrell/the-raven-edgar-allan-poe-magi-reader)
-- [The Gift of the Magi](https://github.com/dancockrell/the-gift-of-the-magi-o-henry-magi-reader)
+- [screen-capture-mcp](https://github.com/dancockrell/screen-capture-mcp) — Windows visual feedback for MCP clients.
+- [Project 42 event ledger](https://github.com/dancockrell/project-42-blockchain) — a peer-to-peer, dual-signed game-event ledger, without cryptocurrency or mining.
+- [DR Genie settings](https://github.com/dancockrell/dr-genie-settings) — highlights and sound alerts for DragonRealms.
+- [World Aflame](https://github.com/dancockrell/world-aflame) and its [Godot port](https://github.com/dancockrell/world-aflame-godot) — earlier card-game and simulation work, retained as projects with their own rules and history.
 
-### Interactive work
+### Background and approach
 
-[World Aflame](https://github.com/dancockrell/world-aflame) is the card-game project worth continuing, with a [Godot port](https://github.com/dancockrell/world-aflame-godot) and a reusable peer-to-peer ledger split into its own library.
+Twenty years teaching English in Thailand, South Korea, China, and the United States; an MEd in Learning Design and Technologies and an MA in English. Earlier work included US Army intelligence analysis and technical writing for BASF in Korea.
 
-Current gameplay work is focused on the Godot port. The original browser repository remains as a playable WebRTC implementation and reference.
+That experience informs my approach to learning and cognition, interface design, technical/product direction, and documentation. I want systems to explain themselves and the evidence behind their decisions.
 
-### Background
-
-Twenty years teaching English in Thailand, South Korea, China and the United States. MEd in Learning Design and Technologies, MA in English. Earlier work included intelligence analysis in the US Army and technical writing for BASF in Korea.
-
-That background shows up in the software: I care about whether a system explains itself, whether a user can recover when something goes wrong, and whether the documented workflow matches what the program actually does.
+I also treat documentation as part of the working system: current design intent should be easy to find, experiments should be labeled, and useful lessons should survive without turning every old decision into a permanent rule.
